@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_sfinx/Scenes/MainMenu.unity
+    guid: 716de0ac517538f49b3115225cc0866a
+  - enabled: 1
+    path: Assets/_sfinx/Scenes/HoldButtonScene.unity
+    guid: c155fb1c63c98534c8b1d1eb25db4c56
+  - enabled: 1
+    path: Assets/_sfinx/Scenes/Schip-Minigame 1.unity
+    guid: e35ec7ba43384784b9fb86da4e6d8235
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 8b717e0e9e7ce5e4895371f329cbb406,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
