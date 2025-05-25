@@ -80,7 +80,16 @@ public class RockingMovement : MonoBehaviour
         isTilting = true;
         isTiltingRight = Random.value > 0.5f;
 
-        float targetTiltAngleZ = isTiltingRight ? maxTiltAngle : -maxTiltAngle;
+        float targetTiltAngleZ;
+        if (isTiltingRight)
+        {
+            targetTiltAngleZ = maxTiltAngle;
+        }
+        else
+        {
+            targetTiltAngleZ = -maxTiltAngle;
+        }
+
         float elapsedTiltTime = 0f;
 
         while (elapsedTiltTime < tiltInterval)
